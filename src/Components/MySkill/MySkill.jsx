@@ -18,7 +18,7 @@ const MySkill = () => {
     { name: "VS CODE" },
   ];
   return (
-    <div>
+    <div className="mt-14">
       <h1 className="text-left md:text-4xl text-2xl font-semibold">
         My Skills
       </h1>

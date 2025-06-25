@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="py-20">
       <h1 className="text-left md:text-4xl text-2xl font-semibold">About Me</h1>
-      <h3 className="text-left text-lg">The Developer Behind the code.</h3>
+      <h3 className="text-left">The Developer Behind the code.</h3>
       <div className="md:py-14 py-4 md:flex gap-6 ">
         <div className=" md:w-3/5 h-auto w-full rounded-md space-y-4 text-left">
           <img src={aboutImg} alt="" />

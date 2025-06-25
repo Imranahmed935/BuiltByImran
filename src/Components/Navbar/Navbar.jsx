@@ -8,7 +8,6 @@ const Navbar = () => {
 
   const links = [
     { name: "Home", path: "/" },
-    { name: "Services", path: "/Services" },
     { name: "Contact", path: "/Contact" },
   ];
 
