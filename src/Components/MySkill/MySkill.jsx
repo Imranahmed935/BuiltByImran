@@ -20,7 +20,7 @@ const MySkill = () => {
   return (
     <div className="mt-14">
       <h1 className="text-left md:text-4xl text-2xl font-semibold">
-        My Skills
+        My <span className="text-blue-600">Capabilities</span>
       </h1>
       <h3 className="text-left text-lg">
         A Glimpse Into My Technical Toolkit.

@@ -3,14 +3,13 @@ import MainLayout from "../Layouts/Mainlayout";
 import Home from "../Pages/Home/Home";
 import Contact from "../Pages/Contact/Contact";
 import Details from "../Pages/Details/Details";
+import Blog from "../Pages/Blog/Blog";
 
-
-
-const router =  createBrowserRouter([
-    {
-        path:'/',
-        element:<MainLayout/>,
-        children: [
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainLayout />,
+    children: [
       {
         path: "/",
         element: <Home />,
@@ -21,18 +20,21 @@ const router =  createBrowserRouter([
         element: <Contact />,
       },
       {
+        path: "/blog",
+        element: <Blog />,
+      },
+      {
         path: "/details/:id",
         element: <Details />,
         loader: async ({ params }) => {
           const res = await fetch("/Project.json");
           const data = await res.json();
-          console.log(data)
+          console.log(data);
           return data.find((project) => project.id === Number(params.id));
         },
       },
     ],
-    },
-    
-])
+  },
+]);
 
 export default router;
