@@ -1,0 +1,39 @@
+
+[
+  {
+    "id": 1,
+    "title": "Champion",
+    "description": "A Trello-style task management app with drag-and-drop functionality and real-time updates using MongoDB Change Streams.",
+    "techStack": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Dnd-Kit"],
+    "liveLink": "https://fir-two-e9ce5.web.app",
+    "gitHubLink": "https://github.com/Imranahmed935/Champion",
+    "image": "https://i.ibb.co/zT3M9QSj/Screenshot-9.png"
+  },
+  {
+    "id": 2,
+    "title": "Pickify",
+    "description": "A smart product recommendation platform that helps users find top-rated products based on categories and preferences.",
+    "techStack": ["Next.js", "Tailwind CSS", "MongoDB", "Express", "Kinde Auth"],
+    "liveLink": "https://dazzling-horse-41d2d8.netlify.app",
+    "gitHubLink": "https://github.com/Imranahmed935/Pickify",
+    "image": "https://i.ibb.co/BKvqVWvd/Screenshot-8.png"
+  },
+  {
+    "id": 3,
+    "title": "SwiftShip",
+    "description": "A fully functional blog platform where users can read, post, and manage content with authentication.",
+    "techStack": ["React", "Firebase Auth", "Tailwind CSS", "Express", "MongoDB"],
+    "liveLink": "https://swiftships.netlify.app",
+    "gitHubLink": "https://github.com/Imranahmed935/Parcel-Management-Client",
+    "image": "https://i.ibb.co/BKvqVWvd/Screenshot-8.png"
+  },
+  {
+    "id": 4,
+    "title": "Talent Trail",
+    "description": "An e-commerce pet shop with filters, sorting, and product details page. Includes cart system and responsive UI.",
+    "techStack": ["React", "Tailwind CSS", "FakeStore API", "React Router"],
+    "liveLink": "https://talent-trail-e14ba.web.app",
+    "gitHubLink": "https://github.com/Imranahmed935/Talent-Trail",
+    "image": "https://i.ibb.co/zT3M9QSj/Screenshot-9.png"
+  }
+]
