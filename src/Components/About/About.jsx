@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import aboutImg from "../../assets/aboutImge.png";
 const About = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 ">
       <h1 className="text-left md:text-4xl text-2xl font-semibold">About Me</h1>
       <h3 className="text-left">The Developer Behind the code.</h3>
       <div className="md:py-14 py-4 md:flex gap-6 ">
@@ -22,7 +22,7 @@ const About = () => {
             to connect and collaborate on innovative projects. Let’s build
             something exceptional together.
           </p>
-          <Link to={'/contact'}>
+          <Link to={"/contact"}>
             <button className="bg-blue-700 rounded px-10 py-2 text-white flex items-center gap-2">
               Contact
             </button>

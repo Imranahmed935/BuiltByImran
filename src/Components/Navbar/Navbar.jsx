@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="max-w-6xl mx-auto flex justify-between items-center  mt-4 p-2 rounded-full">
       <h1 className="text-2xl font-bold text-blue-600 tracking-wide">
-        CodeRaft
+        BuiltByImran
       </h1>
       <ul className="hidden md:flex gap-8 dark:text-gray-700 font-medium">
         {links.map((link) => (

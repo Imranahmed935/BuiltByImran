@@ -1,5 +1,7 @@
+
 import About from "../../Components/About/About";
 import Banner from "../../Components/Banner/Banner";
+import Collaborate from "../../Components/Collaborate/Collaborate";
 import MySkill from "../../Components/MySkill/MySkill";
 import Project from "../../Components/Project/Project";
 import Services from "../../Components/Services/Services";
@@ -13,6 +15,7 @@ const Home = () => {
       <Services/>
       <MySkill/>
       <Project/>
+      <Collaborate/>
     </div>
   );
 };

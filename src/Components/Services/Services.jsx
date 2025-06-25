@@ -7,14 +7,14 @@ const Services = () => {
     <div className="">
       <div className="space-y-4">
         <h1 className="text-left md:text-4xl text-xl font-semibold">
-          Services <br /> made <span className="text-blue-800">Effortless</span>
+          Services <br /> made <span className="text-blue-600">Effortless</span>
         </h1>
         <p>
           We make it easy—one complete service with all you need, no extra fees.
         </p>
       </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-10 py-16">
-        <div className="space-y-2 p-4 bg-[#f4f2ee] rounded-lg">
+      <div className="grid md:grid-cols-2 grid-cols-1 py-16">
+        <div className="space-y-2 p-6  rounded-lg">
           <MdDeveloperBoard className="text-2xl text-blue-800" />
           <h1 className="text-2xl font-semibold">Web Development</h1>
           <p>
@@ -23,7 +23,7 @@ const Services = () => {
             testing.
           </p>
         </div>
-        <div className="space-y-2 p-4 bg-[#f4f2ee] rounded-lg">
+        <div className="space-y-2 p-6 bg-[#fceeda] rounded-lg">
           <FaQuestionCircle className="text-2xl text-blue-800" />
           <h1 className="text-2xl font-semibold">Web Consultant</h1>
           <p>
@@ -31,7 +31,7 @@ const Services = () => {
             professional, ensuring seamless user experiences and impactful.{" "}
           </p>
         </div>
-        <div className="space-y-2 p-4 bg-[#f4f2ee] rounded-lg">
+        <div className="space-y-2 p-6 bg-[#fceeda] rounded-lg">
           <FaMobileScreen className="text-2xl text-blue-800" />
           <h1 className="text-2xl font-semibold">UI/UX Design</h1>
           <p>
@@ -39,7 +39,7 @@ const Services = () => {
             interfaces that deeply engage and resonate with audiences.
           </p>
         </div>
-        <div className="space-y-2 p-4 bg-[#f4f2ee] rounded-lg">
+        <div className="space-y-2 p-6  rounded-lg">
           <FaPersonBreastfeeding className="text-2xl text-blue-600" />
           <h1 className="text-2xl font-semibold">Brand Design </h1>
           <p>
