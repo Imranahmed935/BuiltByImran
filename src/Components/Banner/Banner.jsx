@@ -1,7 +1,6 @@
 import developerImg from "../../assets/develop.webp";
 import bgImage from "../../assets/bgImage.png";
 
-
 const Banner = () => {
   return (
     <div>
@@ -19,8 +18,8 @@ const Banner = () => {
           <div className="flex gap-4">
             <div>
               <a
-                href="/resume.pdf"
-                download="fullStack dev"
+                href="https://drive.google.com/uc?export=download&id=1ai2ilyC7sfjRpcAqQYXPpmjlS8umMPak"
+                download
                 className=" bg-blue-700 px-10 py-2 rounded text-white"
               >
                 Hire Me
@@ -28,7 +27,7 @@ const Banner = () => {
             </div>
             <div>
               <a
-                href="#Projects"
+                href="#project"
                 className=" border border-blue-700 px-5 py-2 rounded-full hover:bg-blue-800 hover:text-white dark:text-gray-700 transition duration-300"
               >
                 Latest Projects
@@ -40,7 +39,7 @@ const Banner = () => {
           <img className="w-full" src={developerImg} alt="" />
         </div>
       </div>
-      <div className="w-full -mt-64 hidden md:block ">
+      <div className="w-full hidden md:block ">
         <img className="z-0" src={bgImage} alt="" />
       </div>
     </div>
