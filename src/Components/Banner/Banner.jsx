@@ -6,7 +6,9 @@ const Banner = () => {
     <div>
       <div className="flex flex-col md:flex-row items-center gap-4 py-6 ">
         <div className=" md:w-1/2 h-auto w-full rounded-md space-y-6 text-left">
-          <h3 className="text-2xl">I'm a Full Stack Developer</h3>
+          <h3 className="text-2xl">
+            I'm a <span className="text-pink-"> FULL STACK DEVELOPER</span>
+          </h3>
           <h1 className="md:text-4xl text-4xl font-bold">
             Turning Ideas Into Web Solutions.
           </h1>

@@ -13,8 +13,8 @@ const Services = () => {
           We make it easy—one complete service with all you need, no extra fees.
         </p>
       </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 py-16">
-        <div className="space-y-2 p-6  rounded-lg">
+      <div className="grid md:grid-cols-2 grid-cols-1 py-16 gap-4">
+        <div className="space-y-2 p-6 bg-[#6cd0dbb9] rounded-lg">
           <MdDeveloperBoard className="text-2xl text-blue-800" />
           <h1 className="text-2xl font-semibold">Web Development</h1>
           <p>
@@ -39,7 +39,7 @@ const Services = () => {
             interfaces that deeply engage and resonate with audiences.
           </p>
         </div>
-        <div className="space-y-2 p-6  rounded-lg">
+        <div className="space-y-2 p-6 bg-[#6cd0dbb9] rounded-lg">
           <FaPersonBreastfeeding className="text-2xl text-blue-600" />
           <h1 className="text-2xl font-semibold">Brand Design </h1>
           <p>

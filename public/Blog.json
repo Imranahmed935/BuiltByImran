@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Why React is Dominating Frontend Development",
+    "description": "Explore the reasons why React continues to lead modern frontend frameworks, from component-based architecture to strong community support.",
+    "author": "Imran Ahmed",
+    "date": "2025-06-23",
+    "image": "https://i.ibb.co/XfG5fCvr/react.png"
+  },
+  {
+    "id": 2,
+    "title": "Understanding the MERN Stack: A Full-Stack Guide",
+    "description": "Learn the fundamentals of the MERN stack — MongoDB, Express, React, and Node.js — and why it's popular among full-stack developers.",
+    "author": "Imran Ahmed",
+    "date": "2025-06-18",
+    "image": "https://i.ibb.co/S4Gzdxkq/development.jpg"
+  },
+  {
+    "id": 3,
+    "title": "10 Essential Tailwind CSS Tips for Developers",
+    "description": "Boost your Tailwind productivity with these top tips and best practices for writing clean, scalable utility-first CSS.Tailwind productivity.",
+    "author": "Imran Ahmed",
+    "date": "2025-06-10",
+    "image": "https://i.ibb.co/yc5QctPL/tailwind.png"
+  },
+  {
+    "id": 4,
+    "title": "Vite vs. CRA: Which React Tooling is Better?",
+    "description": "A performance comparison between Vite and Create React App, and why many developers are switching to Vite in 2025.",
+    "author": "Imran Ahmed",
+    "date": "2025-06-05",
+    "image": "https://i.ibb.co/RTxcNtKn/What-is-Artificial-Intelligence.webp"
+  },
+  {
+    "id": 5,
+    "title": "How AI is Shaping the Future of Web Development",
+    "description": "From code generation to user personalization, explore how artificial intelligence is changing how we build for the web.",
+    "author": "Imran Ahmed",
+    "date": "2025-05-29",
+    "image": "https://i.ibb.co/jvxSP18x/Consultant.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Next.js vs. Remix: The Future of React SSR",
+    "description": "A deep dive into modern React server-side rendering with Next.js and Remix — which should you choose?",
+    "author": "Imran Ahmed",
+    "date": "2025-05-15",
+    "image": "https://i.ibb.co/MyKNpL3F/data.png"
+  },
+  {
+    "id": 8,
+    "title": "Docker for Web Developers: A Beginner's Guide",
+    "description": "Understand how to containerize your frontend and backend applications with Docker for smoother deployments.",
+    "author": "Imran Ahmed",
+    "date": "2025-05-12",
+    "image": "https://i.ibb.co/S4Gzdxkq/development.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Mastering Firebase Authentication in React",
+    "description": "Learn how to implement and secure user authentication in your React apps using Firebase Auth.",
+    "author": "Imran Ahmed",
+    "date": "2025-05-05",
+    "image": "https://i.ibb.co/TxCYYc4Y/flutter.png"
+  },
+  {
+    "id": 10,
+    "title": "How to Build and Deploy a REST API with Node & Express",
+    "description": "Step-by-step guide to building a production-ready REST API using Node.js",
+    "author": "Imran Ahmed",
+    "date": "2025-04-30",
+    "image": "https://i.ibb.co/cKM2HdZY/block.jpg"
+  }
+]
