@@ -1,12 +1,67 @@
-# React + Vite
+# BuiltByImran – Personal Portfolio 👨‍💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BuiltByImran** is a modern, responsive developer portfolio designed to showcase my skills, projects, and development journey. Created with React, Vite, and Tailwind CSS, it reflects my commitment to clean design, smooth UX, and real-world development principles.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Website
 
-## Expanding the ESLint configuration
+[Visit Live Site](https://builtbyimran.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+1. **Modern UI/UX**  
+   - Clean, responsive layout inspired by Dribbble concepts.
+
+2. **Fully Responsive**  
+   - Optimized for all screen sizes: desktop, tablet, and mobile.
+
+3. **Smooth Navigation**  
+   - React Router used to provide seamless page transitions.
+
+4. **Projects Showcase**  
+   - A dedicated section to explore recent and featured projects.
+
+5. **Downloadable Resume**  
+   - Resume download via a functional and user-friendly CTA button.
+
+6. **Custom Pages**  
+   - Includes two extra pages: **Blog** and **Contact** to meet internship task requirements.
+
+7. **Performance Optimized**  
+   - Powered by Vite and React for fast loading and efficient rendering.
+
+---
+
+## 🧩 Pages Included
+
+- **Home**  
+- **Blog** ✅
+- **Contact** ✅
+
+---
+
+## 🚀 Technologies Used
+
+- **Frontend Framework**: React + Vite  
+- **Styling**: Tailwind CSS  
+- **Routing**: React Router DOM    
+- **Deployment**: Netlify
+
+---
+
+## 🛠 Folder Structure (Simplified)
+
+src/
+├── assets/ # Images, icons
+├── components/ # Reusable components (Navbar, Footer, Card, etc.)
+├── pages/ # Page components (Home, About, Projects, etc.)
+├── App.jsx
+└── main.jsx
+public/
+├── Project.json # Project data (for dynamic rendering)
+
+
+

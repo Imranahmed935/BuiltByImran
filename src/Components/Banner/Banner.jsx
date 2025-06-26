@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div>
       <div className="flex flex-col md:flex-row items-center gap-4 py-6 ">
-        <div className=" md:w-1/2 h-auto w-full rounded-md space-y-4 text-left">
+        <div className=" md:w-1/2 h-auto w-full rounded-md space-y-6 text-left">
           <h3 className="text-2xl">I'm a Full Stack Developer</h3>
           <h1 className="md:text-4xl text-4xl font-bold">
             Turning Ideas Into Web Solutions.
@@ -35,12 +35,12 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-1/2 w-full rounded-md z-50">
+        <div className="md:w-1/2 w-full rounded-md z-20">
           <img className="w-full" src={developerImg} alt="" />
         </div>
       </div>
-      <div className="w-full hidden md:block ">
-        <img className="z-0" src={bgImage} alt="" />
+      <div className="w-full hidden md:block">
+        <img className="" src={bgImage} alt="" />
       </div>
     </div>
   );
