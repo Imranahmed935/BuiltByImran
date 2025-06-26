@@ -6,7 +6,7 @@ const Project = () => {
   const [projects, setProjects] = useState(null);
 
   useEffect(() => {
-    fetch("/public/Project.json")
+    fetch("/Project.json")
       .then((res) => res.json())
       .then((data) => setProjects(data))
       .catch((error) => console.log("failed to load projects data", error));
