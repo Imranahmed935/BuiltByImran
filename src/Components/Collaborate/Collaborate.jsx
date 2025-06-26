@@ -3,9 +3,9 @@ import developer from "../../assets/skills/developerpic.png";
 
 const Collaborate = () => {
   return (
-    <div className="md:flex justify-between items-center gap-4 bg-[#fceeda] px-10 py-4 rounded-lg">
+    <div className="md:flex justify-between items-center gap-4  bg-[#fceeda] px-10 py-4 rounded-lg">
       <div className="space-y-4">
-        <h1 className="text-4xl">
+        <h1 data-aos="fade-right" className="text-4xl">
           Let’s Collaborate <br /> Together
         </h1>
         <p>Let’s turn your ideas into stunning digital experiences.</p>
@@ -15,7 +15,7 @@ const Collaborate = () => {
           </button>
         </Link>
       </div>
-      <div>
+      <div data-aos="zoom-in">
         <img src={developer} alt="" />
       </div>
     </div>

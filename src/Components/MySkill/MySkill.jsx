@@ -25,7 +25,7 @@ const MySkill = () => {
       <h3 className="text-left text-lg">
         A Glimpse Into My Technical Toolkit.
       </h3>
-      <div className="md:py-14 py-4 flex flex-wrap gap-6  ">
+      <div data-aos="zoom-in" className="md:py-14 py-4 flex flex-wrap gap-6  ">
         {skills.map((skill, inx) => (
           <h1
             className="border border-gray-800 hover:border-blue-600 hover:translate-y-2 scale-105 transition-transform duration-300 rounded p-4"

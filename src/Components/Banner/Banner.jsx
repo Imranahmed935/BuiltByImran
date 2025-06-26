@@ -1,13 +1,19 @@
 import developerImg from "../../assets/develop.webp";
+
+import Aos from "aos";
+
 import bgImage from "../../assets/bgImage.png";
 
 const Banner = () => {
   return (
     <div>
       <div className="flex flex-col md:flex-row items-center gap-4 py-6 ">
-        <div className=" md:w-1/2 h-auto w-full rounded-md space-y-6 text-left">
+        <div
+          data-aos="fade-right"
+          className=" md:w-1/2 h-auto w-full rounded-md space-y-6 text-left"
+        >
           <h3 className="text-2xl">
-            I'm a <span className="text-pink-"> FULL STACK DEVELOPER</span>
+            I'm a <span className="text-pink-">Full Stack Developer</span>
           </h3>
           <h1 className="md:text-4xl text-4xl font-bold">
             Turning Ideas Into Web Solutions.
@@ -37,12 +43,12 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-1/2 w-full rounded-md z-20">
+        <div data-aos="fade-up" className="md:w-1/2 w-full rounded-md z-20">
           <img className="w-full" src={developerImg} alt="" />
         </div>
       </div>
       <div className="w-full hidden md:block">
-        <img className="" src={bgImage} alt="" />
+        <img className="-mt-64" src={bgImage} alt="" />
       </div>
     </div>
   );

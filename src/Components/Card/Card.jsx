@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Card = ({ project }) => {
   const { id, title, description, liveLink, image } = project;
-console.log(project)
+
   return (
-    <div className="border border-blue-500 p-3 rounded-lg">
+    <div data-aos="flip-left" className="border border-[#6cd0dbb9] p-3 rounded-lg">
       <div>
         <img className="w-full h-72 rounded" src={image} alt="" />
       </div>

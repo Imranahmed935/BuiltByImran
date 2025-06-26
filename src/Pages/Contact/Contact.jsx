@@ -33,15 +33,15 @@ const Contact = () => {
   return (
     <div>
       <div className="md:py-8 py-4">
-        <h1 className="text-left md:text-3xl text-2xl font-semibold ">
+        <h1 className="text-left md:text-2xl font-semibold ">
           welcome to contact page
         </h1>
         <h3 className="text-left text-lg">
          We'd love to hear from you - feel free to reach out with any questions or ideas.
         </h3>
       </div>
-      <div id="contact" className="lg:mt-10 p-6 mx-auto bg-gray-50 rounded ">
-        <h2 className="text-xl text-left font-extrabold text-gray-800 mb-8">
+      <div  className="lg:mt-10 p-6 mx-auto bg-gray-50 border rounded-lg ">
+        <h2 className="text-xl text-center text-gray-800 mb-8">
           Get in Touch
         </h2>
         <section className="bg-white py-12 lg:px-10 px-4 rounded-lg">

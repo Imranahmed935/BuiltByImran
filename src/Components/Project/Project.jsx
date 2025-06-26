@@ -13,7 +13,7 @@ const Project = () => {
   }, []);
 
   return (
-    <section className="py-20 " id="project">
+    <section className="py-20" id="project">
       <h1 className="text-left md:text-4xl text-2xl font-semibold">
         Explore <br/> my latest <span className="text-blue-600">Projects</span>
       </h1>

@@ -13,45 +13,48 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="max-w-6xl mx-auto flex justify-between items-center  mt-4 p-2 rounded-full">
+    <nav className="z-50 relative bg-[#e3f5fa] max-w-6xl mx-auto flex justify-between items-center px-4 py-2 mt-4 rounded-full sticky top-0 shadow">
       <h1 className="text-2xl font-bold text-blue-600 tracking-wide">
         BuiltByImran
       </h1>
-      <ul className="hidden md:flex gap-8 dark:text-gray-700 font-medium">
+
+      {/* Desktop Links */}
+      <ul className="hidden md:flex gap-8 font-medium text-gray-700">
         {links.map((link) => (
           <li key={link.name}>
             <NavLink
               to={link.path}
-              className={({ isActive }) => {
-                return isActive ? "text-blue-600" : "";
-              }}
+              className={({ isActive }) =>
+                isActive ? "text-blue-600 font-semibold" : ""
+              }
             >
               {link.name}
             </NavLink>
           </li>
         ))}
       </ul>
-      <div className="md:flex gap-4 cursor-pointer text-2xl hidden">
+
+      {/* Social Icons */}
+      <div className="hidden md:flex gap-4 text-2xl text-blue-700">
         <a
           href="https://www.linkedin.com/in/imran-ahmed-frontend-developer"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-2xl hover:text-black transition"
+          className="hover:text-black transition"
         >
           <FaLinkedin />
         </a>
-
         <a
           href="https://github.com/Imranahmed935"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-2xl hover:text-gray-800 transition"
+          className="hover:text-gray-800 transition"
         >
           <FaGithub />
         </a>
       </div>
 
-      {/* Hamburger menu */}
+      {/* Hamburger */}
       <div
         className="md:hidden text-3xl text-blue-700"
         onClick={() => setOpenMenu(!openMenu)}
@@ -59,23 +62,29 @@ const Navbar = () => {
         {openMenu ? <HiX className="text-red-600" /> : <HiMenuAlt3 />}
       </div>
 
+      {/* Mobile Menu */}
       {openMenu && (
-        <div className="absolute top-24 right-4 text-left w-[70%] bg-gray-200 p-4 rounded-xl shadow-lg md:hidden flex flex-col gap-3 text-gray-800 font-medium ">
+        <div className="absolute top-20 right-4 z-50 w-3/4 bg-[#fceeda] p-5 rounded-xl shadow-lg flex flex-col gap-4 font-medium text-gray-800 md:hidden">
           {links.map((link) => (
             <NavLink
               key={link.name}
               to={link.path}
               onClick={() => setOpenMenu(false)}
-              className={({ isActive }) => {
-                return isActive ? "text-blue-600" : "";
-              }}
+              className={({ isActive }) =>
+                isActive ? "text-blue-600 font-semibold" : ""
+              }
             >
               {link.name}
             </NavLink>
           ))}
-          <button className=" border border-blue-700 px-5 py-2 rounded-full hover:bg-blue-800 hover:text-white dark:text-gray-700 transition duration-300">
+
+          <a
+            href="https://drive.google.com/uc?export=download&id=1ai2ilyC7sfjRpcAqQYXPpmjlS8umMPak"
+            download
+            className="bg-blue-700 px-5 py-2 rounded text-white text-center"
+          >
             Hire Me
-          </button>
+          </a>
         </div>
       )}
     </nav>

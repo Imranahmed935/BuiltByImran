@@ -2,8 +2,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between items-center py-6">
-      <h1 className="text-2xl font-bold text-blue-600 tracking-wide">
+    <div className="md:flex justify-between items-center py-6">
+      <h1 className="text-2xl text-center font-bold text-blue-600 tracking-wide">
         BuiltByImran
       </h1>
       <p className="text-center text-sm lg:text-base mt-4 ">
