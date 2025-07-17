@@ -4,53 +4,39 @@ import { MdDeveloperBoard } from "react-icons/md";
 
 const Services = () => {
   return (
-    <div className="md:mt-24 mt-10">
-      <div className="space-y-4">
+    <div>
+      <div className="space-y-2">
         <h1 className="text-left md:text-4xl text-xl font-semibold">
-          Services <br /> made <span className="text-blue-600">Effortless</span>
+          Professional <br /> <span className="text-blue-600">Courses</span>
         </h1>
-        <p>
-          We make it easy—one complete service with all you need, no extra fees.
-        </p>
       </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 py-16 gap-4">
+      <div className="grid md:grid-cols-2 grid-cols-1 py-10 gap-4">
         <div
           data-aos="fade-right"
-          className="space-y-2 p-6 bg-[#6cd0dbb9] rounded-lg"
+          className="relative space-y-2 p-6 bg-[#6cd0dbb9] rounded-lg"
         >
-          <MdDeveloperBoard className="text-2xl text-blue-800" />
-          <h1 className="text-2xl font-semibold">Web Development</h1>
-          <p>
-            Comprehensive end-to-end design process, from initial ideation and
-            wireframing to interactive prototyping and in-depth usability
-            testing.
-          </p>
+          <h1 className="text-2xl font-semibold">
+            Complete Web Development using MERN Stack
+          </h1>
+          <p>Programming Hero</p>
+          <p>Issued March 4, 2025</p>
+
+          {/* Certificate Tag with Link */}
+          <a
+            href="https://drive.google.com/file/d/1d7zLo_w_s35s4xVZ2OUVlByh04VpJPOS/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute bottom-3 right-4 bg-white text-black text-sm font-medium px-3 py-1 rounded-full shadow hover:bg-blue-600 hover:text-white transition duration-300"
+          >
+            Certificate
+          </a>
         </div>
-        <div className="space-y-2 p-6 bg-[#fceeda] rounded-lg">
-          <FaQuestionCircle className="text-2xl text-blue-800" />
-          <h1 className="text-2xl font-semibold">Web Consultant</h1>
-          <p>
-            Provide expert design consultancy for any digital product
-            professional, ensuring seamless user experiences and impactful.{" "}
-          </p>
-        </div>
-        <div className="space-y-2 p-6 bg-[#fceeda] rounded-lg">
-          <FaMobileScreen className="text-2xl text-blue-800" />
-          <h1 className="text-2xl font-semibold">UI/UX Design</h1>
-          <p>
-            Crafting user-centered, visually stunning, and highly intuitive
-            interfaces that deeply engage and resonate with audiences.
-          </p>
-        </div>
-        <div
-          data-aos="fade-left"
-          className="space-y-2 p-6 bg-[#6cd0dbb9] rounded-lg"
-        >
-          <FaPersonBreastfeeding className="text-2xl text-blue-600" />
-          <h1 className="text-2xl font-semibold">Brand Design </h1>
-          <p>
-            Creates visual identities and develops brand strategies for tech
-            companies around the world.
+
+        <div className="relative space-y-2 p-6 bg-[#fceeda] rounded-lg">
+          <h1 className="text-2xl font-semibold">Next Level Web Development</h1>
+          <p>Programming Hero</p>
+          <p className="absolute bottom-3 right-4 text-black text-sm font-medium px-3 py-1 rounded-full shadow bg-white transition duration-300">
+            Running...
           </p>
         </div>
       </div>

@@ -7,6 +7,7 @@ const MySkill = () => {
     { name: "TYPESCRIPT" },
     { name: "REACT.JS" },
     { name: "NEXT.JS" },
+    { name: "REDUX TOOLKIT" },
     { name: "EXPRESS.JS" },
     { name: "NODE.JS" },
     { name: "MONGODB" },
@@ -15,10 +16,10 @@ const MySkill = () => {
     { name: "GIT & GITHUB" },
     { name: "POSTMAN" },
     { name: "FIGMA" },
-    { name: "VS CODE" },
+    
   ];
   return (
-    <div className="mt-14">
+    <div id="skill" className="mt-14">
       <h1 className="text-left md:text-4xl text-2xl font-semibold">
         My <span className="text-blue-600">Capabilities</span>
       </h1>

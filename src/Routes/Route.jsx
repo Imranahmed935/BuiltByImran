@@ -1,10 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import MainLayout from "../Layouts/Mainlayout";
 import Home from "../Pages/Home/Home";
-import Contact from "../Pages/Contact/Contact";
+
+import MainLayout from "../Layouts/MainLayout";
 import Details from "../Pages/Details/Details";
-import Blog from "../Pages/Blog/Blog";
-import BlogDetails from "../Pages/BlogDetails/BlogDetails";
 
 const router = createBrowserRouter([
   {
@@ -16,23 +14,16 @@ const router = createBrowserRouter([
         element: <Home />,
       },
 
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
-      {
-        path: "/blog",
-        element: <Blog />,
-      },
-      {
-        path: "/blogDetails/:id",
-        element: <BlogDetails />,
-        loader: async ({ params }) => {
-          const res = await fetch("/Blog.json");
-          const data = await res.json();
-          return data.find((blog) => blog.id === Number(params.id));
-        },
-      },
+      
+      // {
+      //   path: "/blogDetails/:id",
+      //   element: <BlogDetails />,
+      //   loader: async ({ params }) => {
+      //     const res = await fetch("/Blog.json");
+      //     const data = await res.json();
+      //     return data.find((blog) => blog.id === Number(params.id));
+      //   },
+      // },
       {
         path: "/details/:id",
         element: <Details />,

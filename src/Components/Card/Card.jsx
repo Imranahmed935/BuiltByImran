@@ -5,7 +5,7 @@ const Card = ({ project }) => {
   const { id, title, description, liveLink, image } = project;
 
   return (
-    <div data-aos="flip-left" className="border border-[#6cd0dbb9] p-3 rounded-lg">
+    <div data-aos="flip-left" className="border border-[#6cd0dbb9] p-3 rounded-lg bg-[#E6F4F8]">
       <div>
         <img className="w-full h-72 rounded" src={image} alt="" />
       </div>

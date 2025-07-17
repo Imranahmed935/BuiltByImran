@@ -8,12 +8,6 @@ const Details = () => {
   return (
     <div>
       <div>
-        <h1 className="text-left md:text-3xl text-2xl font-semibold mt-6">
-          welcome to details page
-        </h1>
-        <h3 className="text-left text-lg">
-          here you can see everything about this project.
-        </h3>
       </div>
       <div>
         <div className="md:py-10 py-4">

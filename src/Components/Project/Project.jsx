@@ -17,10 +17,7 @@ const Project = () => {
       <h1 className="text-left md:text-4xl text-2xl font-semibold">
         Explore <br/> my latest <span className="text-blue-600">Projects</span>
       </h1>
-      <h3 className="text-left mt-4">
-        Real-World Projects that highlight my full stack development skills.
-      </h3>
-      <div className="md:py-14 py-4 grid md:grid-cols-2 grid-col-1 gap-10 ">
+      <div className="md:py-14 py-4 grid md:grid-cols-2 grid-col-1 gap-10  ">
         {projects?.map((project) => (
           <Card key={project.id} project={project} />
         ))}

@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         poppins: ['Poppins', 'serif',]
       },
+      scrollBehavior: {
+        DEFAULT: 'smooth',
+      },
     },
   },
   plugins: [],

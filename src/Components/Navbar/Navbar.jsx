@@ -1,15 +1,16 @@
 import { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
-import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   const links = [
     { name: "Home", path: "/" },
-    { name: "Blog", path: "/Blog" },
-    { name: "Contact", path: "/Contact" },
+    { name: "Skills", path: "#skill" },
+    { name: "Projects", path: "#project" },
+    { name: "About", path: "#about" },
+    { name: "Contact", path: "#contact" },
   ];
 
   return (
@@ -22,14 +23,12 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-8 font-medium text-gray-700">
         {links.map((link) => (
           <li key={link.name}>
-            <NavLink
-              to={link.path}
-              className={({ isActive }) =>
-                isActive ? "text-blue-600 font-semibold" : ""
-              }
+            <a
+              href={link.path}
+              className="hover:text-blue-600 transition duration-200"
             >
               {link.name}
-            </NavLink>
+            </a>
           </li>
         ))}
       </ul>
@@ -66,16 +65,14 @@ const Navbar = () => {
       {openMenu && (
         <div className="absolute top-20 right-4 z-50 w-3/4 bg-[#fceeda] p-5 rounded-xl shadow-lg flex flex-col gap-4 font-medium text-gray-800 md:hidden">
           {links.map((link) => (
-            <NavLink
+            <a
               key={link.name}
-              to={link.path}
+              href={link.path}
               onClick={() => setOpenMenu(false)}
-              className={({ isActive }) =>
-                isActive ? "text-blue-600 font-semibold" : ""
-              }
+              className="hover:text-blue-600 transition duration-200"
             >
               {link.name}
-            </NavLink>
+            </a>
           ))}
 
           <a
