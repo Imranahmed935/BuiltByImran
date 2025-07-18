@@ -3,10 +3,11 @@ import developerImg from "../../assets/develop.webp";
 import Aos from "aos";
 
 import bgImage from "../../assets/bgImage.png";
+import bg from "../../assets/skills/bg.jpg"
 
 const Banner = () => {
   return (
-    <div>
+    <div className={`${bg}`}>
       <div className="flex flex-col md:flex-row items-center gap-4 py-6 ">
         <div
           data-aos="fade-right"

@@ -1,37 +1,93 @@
-
 [
   {
+    "topFeatures": [
+      "Role-Based Dashboard: Separate dashboards for Admins, Delivery Personnel, and Users.",
+      "Statistics Overview: Real-time delivery stats and system metrics for admins.",
+      "User Management: Admins can view, add, and manage all registered users.",
+      "Parcel Booking: Easy interface for users to book parcels.",
+      "Parcel Tracking: Users can monitor their delivery statuses in real-time.",
+      "Delivery Personnel Panel: Dedicated dashboard for delivery agents to manage tasks.",
+      "Reviews & Feedback: Two-way feedback system for users and delivery staff.",
+      "Mobile-Responsive Design: Fully optimized for all device sizes.",
+      "Secure Authentication: Role-based access control with login protection.",
+      "Performance Optimized: Built with React, Tailwind CSS, and React Query."
+    ],
     "id": 1,
-    "title": "Champion",
-    "description": "A Trello-style task management app with drag-and-drop functionality and real-time updates using MongoDB Change Streams.",
-    "techStack": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Dnd-Kit"],
-    "liveLink": "https://fir-two-e9ce5.web.app",
-    "gitHubLink": "https://github.com/Imranahmed935/Champion",
-    "image": "https://i.ibb.co/zT3M9QSj/Screenshot-9.png"
-  },
-  {
-    "id": 2,
-    "title": "Pickify",
-    "description": "A smart product recommendation platform that helps users find top-rated products based on categories and preferences.",
-    "techStack": ["Next.js", "Tailwind CSS", "MongoDB", "Express", "Kinde Auth"],
-    "liveLink": "https://dazzling-horse-41d2d8.netlify.app",
-    "gitHubLink": "https://github.com/Imranahmed935/Pickify",
-    "image": "https://i.ibb.co/BKvqVWvd/Screenshot-8.png"
-  },
-  {
-    "id": 3,
     "title": "SwiftShip",
-    "description": "A fully functional blog platform where users can read, post, and manage content with authentication.",
-    "techStack": ["React", "Firebase Auth", "Tailwind CSS", "Express", "MongoDB"],
+    "description": "SwiftShip is an advanced delivery management system that simplifies parcel booking, delivery tracking, and user management. Designed for both administrators and end-users, it ensures a seamless and efficient delivery experience.",
+    "techStack": [
+      "React",
+      "Firebase Auth",
+      "Tailwind CSS",
+      "Express",
+      "MongoDB",
+      "JWT"
+    ],
     "liveLink": "https://swiftships.netlify.app",
     "gitHubLink": "https://github.com/Imranahmed935/Parcel-Management-Client",
-    "image": "https://i.ibb.co/BKvqVWvd/Screenshot-8.png"
+    "image": "https://i.ibb.co/8LZ2xrNG/deliver2.png"
+  },
+
+  {
+    "topFeatures": [
+      "Comprehensive Equipment Management: Add, update, delete, and manage your sports equipment effortlessly.",
+      "Seamless Purchasing: Browse and purchase sports equipment with a user-friendly interface and secure payment options.",
+      "Advanced Search Functionality: Quickly find the equipment you need with powerful search and filtering tools.",
+      "Real-Time Updates: Stay informed with live updates on equipment availability and new product launches.",
+      "Community Engagement: Connect with other sports enthusiasts, share insights, and exchange recommendations through interactive forums.",
+      "Mobile-Friendly Design: Enjoy a fully optimized, responsive experience across all devices, from desktops to smartphones."
+    ],
+    "id": 2,
+    "title": "Champion",
+    "description": "A Trello-style task management app with drag-and-drop functionality and real-time updates using MongoDB Change Streams.",
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Dnd-Kit",
+      "JWT"
+    ],
+    "liveLink": "https://fir-two-e9ce5.web.app",
+    "gitHubLink": "https://github.com/Imranahmed935/Champion",
+    "image": "https://i.ibb.co/ks0GYzWw/ecommerc.png"
   },
   {
+    "topFeatures": [
+      "Smart Recommendations: Provides tailored product suggestions based on user preferences and behavior.",
+      "Dynamic Search: Real-time search functionality to quickly find products.",
+      "Interactive UI: A modern, user-friendly interface designed for seamless navigation.",
+      "Responsive Design: Fully optimized for all devices, including mobile, tablet, and desktop.",
+      "Secure User Accounts: User data is protected using secure authentication and storage."
+    ],
+    "id": 3,
+    "title": "Pickify",
+    "description": "Pickify is an innovative platform designed to simplify your shopping experience by providing personalized product recommendations. Leveraging data-driven insights, it ensures users discover the best products tailored to their preferences.",
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "MongoDB",
+      "Express",
+      "Firebase Auth",
+      "JWT"
+    ],
+    "liveLink": "https://dazzling-horse-41d2d8.netlify.app",
+    "gitHubLink": "https://github.com/Imranahmed935/Pickify",
+    "image": "https://i.ibb.co/nM2DL21F/rco.png"
+  },
+  {
+    "topFeatures": [
+      "Dynamic Career Carousel: An interactive, smooth carousel displaying career tips, services, and relevant content to aid decision-making.",
+      "Real-Time Profile Updates: Instant profile updates (name and picture) with Firebase Authentication, without needing to refresh the page.",
+      "Responsive Design: A fully responsive platform optimized for seamless use across mobile, tablet, and desktop devices.",
+      "Engaging Animations: Scrolling animations powered by AOS (Animate on Scroll), enhancing user interaction and engagement.",
+      "SEO Optimization: Integrated React Helmet for SEO optimization, ensuring better search engine visibility."
+    ],
     "id": 4,
     "title": "Talent Trail",
-    "description": "An e-commerce pet shop with filters, sorting, and product details page. Includes cart system and responsive UI.",
-    "techStack": ["React", "Tailwind CSS", "FakeStore API", "React Router"],
+    "description": "Talent Trail helps users explore careers and make informed decisions with scientific guidance and practical tools for a unique experience.",
+    "techStack": ["React", "Tailwind CSS", "Firebase Auth", "React Router"],
     "liveLink": "https://talent-trail-e14ba.web.app",
     "gitHubLink": "https://github.com/Imranahmed935/Talent-Trail",
     "image": "https://i.ibb.co/zT3M9QSj/Screenshot-9.png"
