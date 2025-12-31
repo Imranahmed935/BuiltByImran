@@ -1,4 +1,46 @@
 [
+   {
+  "topFeatures": [
+    "Smart Friend Matching: Connects users with like-minded buddies based on interests and preferences.",
+    "Real-Time Messaging: Instant chat experience powered by Firebase, enabling seamless communication.",
+    "Secure Authentication: User login and registration using Firebase Authentication with protected routes.",
+    "Responsive & Modern UI: Fully responsive design optimized for mobile, tablet, and desktop devices.",
+    "Smooth Animations: Subtle UI animations and transitions for an engaging social experience."
+  ],
+  "id": 5,
+  "title": "BestBuddies",
+  "description": "BestBuddies is a social connection platform that helps users find, connect, and communicate with new friends in a simple and engaging way to Travel.",
+  "techStack": ["Next.js", "Tailwind CSS", "Postgressql", "Prisma", "Express", "JWT", "socket.io"],
+  "liveLink": "https://best-buddies-client.vercel.app",
+  "gitHubLink": "https://github.com/Imranahmed935/BestBuddies-client",
+  "gitHubBackend": "https://github.com/Imranahmed935/BestBuddies",
+  "image": "https://i.ibb.co.com/zHHM2xtb/buddies.jpg"
+},
+{
+  "topFeatures": [
+    "Secure Digital Wallet: Users can store balance, manage funds, and perform financial transactions securely.",
+    "Instant Money Transfer: Send and receive money efficiently with fast backend processing.",
+    "Role-Based Dashboard: Separate dashboards for users and admins with controlled access and permissions.",
+    "Transaction History: View detailed transaction records for better financial tracking and transparency.",
+    "High-Level Security: JWT-based authentication with protected routes and secure API access."
+  ],
+  "id": 6,
+  "title": "ZPay – Digital Wallet System",
+  "description": "ZPay is a modern digital wallet platform that allows users to securely manage funds, transfer money, and monitor transaction history with a smooth and reliable experience.",
+  "techStack": [
+    "React",
+    "React Router",
+    "Tailwind CSS",
+    "MongoDB",
+    "Mongoose",
+    "Express",
+    "JWT"
+  ],
+  "liveLink": "https://digital-wallet-system-frontend-omega.vercel.app",
+  "gitHubLink": "https://github.com/Imranahmed935/Digital-Wallet-System-Frontend",
+  "gitHubBackend": "https://github.com/Imranahmed935/Digital-Wallet-System-Backend",
+  "image": "https://i.ibb.co.com/dwqbJjKP/zpay.jpg"
+},
   {
     "topFeatures": [
       "Role-Based Dashboard: Separate dashboards for Admins, Delivery Personnel, and Users.",
@@ -27,7 +69,6 @@
     "gitHubLink": "https://github.com/Imranahmed935/Parcel-Management-Client",
     "image": "https://i.ibb.co/8LZ2xrNG/deliver2.png"
   },
-
   {
     "topFeatures": [
       "Comprehensive Equipment Management: Add, update, delete, and manage your sports equipment effortlessly.",
@@ -92,4 +133,5 @@
     "gitHubLink": "https://github.com/Imranahmed935/Talent-Trail",
     "image": "https://i.ibb.co/zT3M9QSj/Screenshot-9.png"
   }
+
 ]

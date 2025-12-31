@@ -21,7 +21,6 @@ const Services = () => {
           <p>Programming Hero</p>
           <p>Issued March 4, 2025</p>
 
-          {/* Certificate Tag with Link */}
           <a
             href="https://drive.google.com/file/d/1d7zLo_w_s35s4xVZ2OUVlByh04VpJPOS/view?usp=sharing"
             target="_blank"

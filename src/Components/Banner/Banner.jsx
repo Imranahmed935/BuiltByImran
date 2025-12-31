@@ -25,24 +25,35 @@ const Banner = () => {
           </p>
 
           <div className="flex gap-4">
-            <div>
-              <a
-                href="https://drive.google.com/uc?export=download&id=1ai2ilyC7sfjRpcAqQYXPpmjlS8umMPak"
-                download
-                className=" bg-blue-700 px-10 py-2 rounded text-white"
-              >
-                Hire Me
-              </a>
-            </div>
-            <div>
-              <a
-                href="#project"
-                className=" border border-blue-700 px-5 py-2 rounded-full hover:bg-blue-800 hover:text-white dark:text-gray-700 transition duration-300"
-              >
-                Latest Projects
-              </a>
-            </div>
-          </div>
+  <a
+    href="https://drive.google.com/uc?export=download&id=1ai2ilyC7sfjRpcAqQYXPpmjlS8umMPak"
+    download
+    className="relative overflow-hidden bg-blue-700 px-10 py-2 rounded text-white
+               transition-all duration-300
+               hover:scale-105
+               hover:shadow-[0_0_30px_rgba(59,130,246,0.9)]
+               active:scale-95"
+  >
+
+    <span className="absolute inset-0 -translate-x-full bg-gradient-to-r 
+                     from-transparent via-white/40 to-transparent
+                     hover:translate-x-full transition-transform duration-700" />
+    <span className="relative z-10">Download Resume</span>
+  </a>
+  <a
+    href="#project"
+    className="relative px-6 py-2 rounded-full border border-blue-700
+               text-blue-600 dark:text-gray-700
+               transition-all duration-300
+               hover:bg-blue-700 hover:text-white
+               hover:shadow-[0_0_25px_rgba(59,130,246,0.8)]
+               hover:scale-105
+               active:scale-95"
+  >
+    Latest Projects
+  </a>
+</div>
+
         </div>
         <div data-aos="fade-up" className="md:w-1/2 w-full rounded-md z-20">
           <img className="w-full" src={developerImg} alt="" />

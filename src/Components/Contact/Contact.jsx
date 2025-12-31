@@ -38,7 +38,7 @@ const Contact = () => {
       </div>
       <div className="max-w-7xl mx-auto bg-[#E6F4F8] p-10 rounded-lg">
         <div className="flex flex-col lg:flex-row gap-12">
-          {/* Contact Info */}
+        
           <div className="lg:w-1/2 space-y-6">
             <div className=" text-black p-6 rounded-xl">
               <h1 className="text-lg leading-relaxed">Contact Information</h1>

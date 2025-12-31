@@ -8,6 +8,7 @@ import Services from "../../Components/Services/Services";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Contact from "../../Components/Contact/Contact";
+import Education from "../../Components/Education/Education";
 
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
       <MySkill />
       <Project />
       <Services />
+      <Education/>
       <Contact/>
       {/* <Collaborate /> */}
     </div>
