@@ -26,9 +26,9 @@ const Banner = () => {
 
           <div className="flex gap-4">
   <a
-    href="https://drive.google.com/uc?export=download&id=1ai2ilyC7sfjRpcAqQYXPpmjlS8umMPak"
+    href="https://drive.google.com/uc?export=download&id=1L9SILlAfl-DllQfKzCaqlZr2z-Koy3Er"
     download
-    className="relative overflow-hidden bg-blue-700 px-10 py-2 rounded text-white
+    className="relative overflow-hidden bg-blue-700 lg:px-10 py-2 rounded text-white
                transition-all duration-300
                hover:scale-105
                hover:shadow-[0_0_30px_rgba(59,130,246,0.9)]
@@ -38,7 +38,7 @@ const Banner = () => {
     <span className="absolute inset-0 -translate-x-full bg-gradient-to-r 
                      from-transparent via-white/40 to-transparent
                      hover:translate-x-full transition-transform duration-700" />
-    <span className="relative z-10">Download Resume</span>
+    <span className="relative z-10 ">Download Resume</span>
   </a>
   <a
     href="#project"
